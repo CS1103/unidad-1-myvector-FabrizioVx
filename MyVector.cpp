@@ -124,19 +124,6 @@ UTEC::MyVector &UTEC::MyVector::operator+(UTEC::MyVector &v1) {
 
 
 
-
-/*
-UTEC::MyVector &UTEC::MyVector::operator+(MyVector &one) {
-
-    MyVector *aux;
-    for(int i = 0;i<nelem;i++){
-        aux->data[i] = data[i] + one.data[i];
-        cout<<"\n"<<aux->data[i];
-    }
-    return *this;
-}
- */
-
 int UTEC::MyVector::getData(int i) const {
     return data[i];
 }
